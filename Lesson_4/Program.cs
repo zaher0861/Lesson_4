@@ -17,9 +17,9 @@ namespace Lesson_4
             int NN = 0;
             if (N > 0 && Math.Floor(N) == N)
             {
-                for (; i<=N; i++)
+                for (; i <= N; i++)
                 {
-                    NN = NN + (2*i-1);
+                    NN = NN + (2 * i - 1);
                     Console.WriteLine("Квадрат числа {0} равен {1}", i, NN);
                 }
             }
